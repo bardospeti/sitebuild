@@ -1,0 +1,38 @@
+csak kb. magasságok, a saját magasságod a tartalomtól függjön!
+
+a sectionök nevei előtt és után a kezdő- és zárópixel értéke, jobbra tőle ezek különbsége, azaz az adott section magassága
+
+0	
+section1	597
+597	
+section2	367
+964	
+section3	675
+1640	
+section4	480
+2119	
+section5	228
+2348	
+nav2		58
+2405	
+
+
+
+
+
+/*
+eredeti pixelek:
+0
+section1
+1270
+section2
+2050
+section3
+3485
+section4
+4505
+section5
+4990
+nav2
+5113
+*/
