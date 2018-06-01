@@ -1,0 +1,131 @@
+html {    
+    background-color: #000;
+    margin: 0 auto;     
+}
+
+.container {    
+   /* left: calc((100% - 1170px)/2);*/
+    margin: 0 auto;
+        background-color: #fff;
+    
+    
+}
+.felso {   
+    width: 1170px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: red;
+    display: inline-block;
+    top: 5%;
+    vertical-align: middle;
+    margin-left: calc((100% - 1170px)/2);
+    margin-right: calc((100% - 1170px)/2);
+ 
+}
+
+.also {
+    width: 1170px;
+    margin-left: calc((100% - 1170px)/2);
+    margin-right: calc((100% - 1170px)/2);
+   
+    display: inline-block;
+    text-align:center;
+    }
+
+
+.phone {
+    float: left;
+    padding: 30px;
+    width: calc(33.33% - 60px);
+    background-color:blue;
+  
+   /* -webkit-transform: translate(0, -50%);    
+    -moz-transform: translate(0, -50%);    
+    transform: translate(0, 0);*/
+
+   /* position:relative;
+    top:40%;
+    margin-bottom:-50%;
+    left:0%;
+    margin-right:-50%;
+    transform:translate(-50%,-50%);*/
+  
+}
+
+.kozep {
+    float: left;
+    height: 100%;
+    width: calc(33.33% - 30px);
+    text-align:center;
+    /*display: inline-block;*/
+    padding: 15px;
+
+}
+
+.jobb {
+    float: left;
+    padding: 15px;
+    width: calc(33.33% - 30px);
+    text-align:center;
+    height: 100%;
+    /*display: inline-block;*/
+   
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: lighter;
+    padding:0;  
+    margin-bottom:0;
+}
+
+
+h2 {
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: lighter;
+    padding:0;  
+    margin-top:0;
+    margin-bottom:0;
+}
+
+
+p {
+    font-family: 'Muli', sans-serif;
+    padding:0;
+    font-size: 14px;   
+}
+
+#szoveg {
+   margin-bottom:3%;
+   margin-top: 0;
+}
+
+#1 { 
+    background-color:orange;
+    float: left;
+    height: calc((50%-20px)/2;
+    /*display: inline-block;*/
+    padding: 20px;   
+}
+
+#2 {
+    background-color:purple;
+    float: left;
+    height: 50%;
+    border: 5px;
+   
+}
+
+#3 {
+    background-color:brown;
+    float: left;
+    height: 50%;
+}
+
+#4 {
+    background-color:pink;
+    float: left;
+    height: 50%;
+}
