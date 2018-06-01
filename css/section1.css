@@ -25,11 +25,7 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
     position: relative;
 }
 
-#col-50-2A {
-    height: 300px;
-}
-
-#col-50-2A h1 {
+#col-50-2A>p {
     font-size: 2em;
     font-weight: lighter;
     color: #ffffff;
@@ -37,20 +33,7 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
     padding-left: 35%;
 }
 
-#col-50-2B {
-    /*background-color: #da2431;*/
-}
-
-#col-50-2B img {
+#col-50-2B>img {
     width: 200px;
     padding-right: 20%;
-    text-decoration: none;
 }
-
-/*.padding {
-    position: fixed;
-    width: 275px;
-    height: 1000px;
-    right: 0;
-    background: #000;
-}*/
