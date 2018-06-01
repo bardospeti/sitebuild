@@ -5,11 +5,11 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
     font-family: 'Muli', sans-serif;
 */
 
-#section2A {
+#section1A {
     background: linear-gradient(to right, #da2431, #7a4397);
 }
 
-#section2B {
+#section1B {
     background-image: url("/img/bg-pattern.png");
 }
 
@@ -25,7 +25,7 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
     position: relative;
 }
 
-#col-50-2A>p {
+#col-50-1A>p {
     font-size: 2em;
     font-weight: lighter;
     color: #ffffff;
@@ -33,7 +33,7 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
     padding-left: 35%;
 }
 
-#col-50-2B>img {
+#col-50-1B>img {
     width: 200px;
     padding-right: 20%;
 }
