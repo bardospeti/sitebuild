@@ -1,0 +1,35 @@
+font-family: 'Muli',
+sans-serif;
+body {
+    width: 1170px;
+    margin: 0;
+    background-color: #000000;
+}
+
+#section4 {
+    background-image: url("/img/bg-cta.jpg");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    -webkit-filter: brightness(50%)
+}
+
+.container {
+    height: 500px;
+    /*ezt majd ki kell szedni, és a tartalom határozza meg, hogy milyen magas lesz*/
+    margin: auto;
+    font-family: 'Muli', 'Helvetica', 'Arial', sans-serif;
+}
+
+.col-50 {
+    float: left;
+    padding: 15px;
+    width: calc(50%-30px);
+}
+
+.col-100 {
+    float: left;
+    padding: 15px;
+    width: calc(100%-30px);
+}
