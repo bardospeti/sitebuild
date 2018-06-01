@@ -5,54 +5,52 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
     font-family: 'Muli', sans-serif;
 */
 
-body {
-    margin: 0;
-    /*background: #000000;*/
-}
-
-section {
-    /*background-image: url("/img/iphone.png");*/
-    /*background-repeat: repeat-xy;*/
-    height: 1750px;
-    position: relative;
-    /*ezt majd ki kell szedni, és a tartalom határozza meg, hogy milyen magas lesz*/
-}
-
-#sectionA {
+#section2A {
     background: linear-gradient(to right, #da2431, #7a4397);
 }
 
-#sectionB {
+#section2B {
     background-image: url("/img/bg-pattern.png");
 }
 
 .container {
-    width: 1170px;
-    height: 1500px;
-    /*ezt majd ki kell szedni, és a tartalom határozza meg, hogy milyen magas lesz*/
-    margin: auto;
-    background-color: #ffffff;
-    font-family: 'Muli', 'Helvetica', 'Arial', sans-serif;
-}
-
-.col-100 {
-    width: 100%;
-    background-color: pink;
-    /*ideiglenesen, hogy látsszon, hol van*/
+    padding: 0;
+    overflow: auto;
 }
 
 .col-50 {
-    width: 50%;
-    background-color: pink;
-    /*ideiglenesen, hogy látsszon, hol van*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: left;
+    position: relative;
 }
 
-.col-33 {
-    width: 33%;
-    background-color: pink;
-    /*ideiglenesen, hogy látsszon, hol van*/
+#col-50-2A {
+    height: 300px;
 }
 
-.button {
-    font-family: 'Lato', sans-serif;
+#col-50-2A h1 {
+    font-size: 2em;
+    font-weight: lighter;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 35%;
 }
+
+#col-50-2B {
+    /*background-color: #da2431;*/
+}
+
+#col-50-2B img {
+    width: 200px;
+    padding-right: 20%;
+    text-decoration: none;
+}
+
+/*.padding {
+    position: fixed;
+    width: 275px;
+    height: 1000px;
+    right: 0;
+    background: #000;
+}*/

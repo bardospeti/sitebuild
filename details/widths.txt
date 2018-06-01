@@ -1,5 +1,23 @@
 szélességek
 
+section1
+0
+590
+600
+925
+1244
+1470
+1905
+2487
+
+bal: 278
+gomb: 157
+h1: 303
+h1/telefon: 106
+telefon: 205
+jobb: 275
+
+
 section3
 fehér
 
@@ -14,20 +32,3 @@ telefon
 1958
 
 2487
-
-magasság:
-alja
-
-0
-piros
-1270
-
-2050
-
-3485
-
-4505
-
-4990
-
-5113
