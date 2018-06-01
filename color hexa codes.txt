@@ -1,0 +1,27 @@
+nav1
+betű: ffd056
+
+section1
+bal: rózsaszín
+da2431
+jobb: lila
+7a4397
+
+section2
+sárga
+fdca4b
+
+section3
+fehér
+ffffff
+
+section4
+háttérkép
+
+section5
+halványsárga
+fcc949
+
+footer
+222222
+betű: 646464
