@@ -55,8 +55,8 @@
     transition: 300ms
 }
 
-.fa,
-.fab {
+.social .fa,
+.social .fab {
     color: white;
     padding: 15px;
     font-size: 40px;
@@ -66,19 +66,19 @@
     border-radius: 50%;
 }
 
-.fa:hover {
+.social .fa:hover {
     opacity: 0.7;
 }
 
-.fab:hover {
+.social .fab:hover {
     opacity: 0.7;
 }
 
-.fa-facebook {
+.social .fa-facebook {
     background-color: #3b5998;
 }
 
-.fa-twitter {
+.social .fa-twitter {
     background-color: #1DA1F2;
 }
 
