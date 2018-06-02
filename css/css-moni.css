@@ -4,13 +4,13 @@ html {
 }
 
 .container {    
-   /* left: calc((100% - 1170px)/2);*/
+    /* left: calc((100% - 1170px)/2);*/
     margin: 0 auto;
-        background-color: #fff;
-    
+    background-color: #f87548;
+    height: 1170px;
     
 }
-.felso {   
+.felso {  
     width: 1170px;
     text-align: center;
     margin: 0 auto;
@@ -20,112 +20,139 @@ html {
     vertical-align: middle;
     margin-left: calc((100% - 1170px)/2);
     margin-right: calc((100% - 1170px)/2);
- 
+    height: 25%;
 }
 
 .also {
     width: 1170px;
     margin-left: calc((100% - 1170px)/2);
-    margin-right: calc((100% - 1170px)/2);
-   
     display: inline-block;
     text-align:center;
-    }
+    height: 100%;
+}
 
 
 .phone {
-    float: left;
-    padding: 30px;
-    width: calc(33.33% - 60px);
+    float: left;    
+    width: 33.33%;
     background-color:blue;
-  
-   /* -webkit-transform: translate(0, -50%);    
-    -moz-transform: translate(0, -50%);    
-    transform: translate(0, 0);*/
+    height: 75%;
+ }
 
-   /* position:relative;
-    top:40%;
-    margin-bottom:-50%;
-    left:0%;
-    margin-right:-50%;
-    transform:translate(-50%,-50%);*/
-  
+img#telo {
+    position: relative;
+    text-align:center;
+    margin-top: calc((100% - 707px)/2);
+    width: 351px;
+    height: 707px;
+    top: 25%;
+}
+
+.negyzetes {
+    width: 66.66%;
+    float: left;
+    /*background-color: black;*/
+    height:75%;
 }
 
 .kozep {
+    position: relative;
     float: left;
     height: 100%;
-    width: calc(33.33% - 30px);
-    text-align:center;
-    /*display: inline-block;*/
-    padding: 15px;
-
+    background-color: white;
+    width: 50%;
+    text-align:center;     
 }
 
 .jobb {
-    float: left;
-    padding: 15px;
-    width: calc(33.33% - 30px);
+    background-color: yellow;
+    float: left;  
+    width:50%;
     text-align:center;
-    height: 100%;
-    /*display: inline-block;*/
-   
+    height: 100%;       
 }
 
-h1 {
-    font-size: 40px;
+h1,
+h2 {   
+    font-size: 60px;
     font-family: 'Catamaran', sans-serif;
-    font-weight: lighter;
-    padding:0;  
+    font-weight: lighter;    
+    align-content: center;
+    align-items: center;    
+}
+
+.a {
+    margin-top:30%;
     margin-bottom:0;
+    font-size: 70px; 
+}
+
+.b {
+    margin-top:0;
+    margin-bottom:0; 
 }
 
 
-h2 {
+h3 {
     font-size: 24px;
     font-family: 'Catamaran', sans-serif;
-    font-weight: lighter;
-    padding:0;  
+    font-weight: lighter;  
     margin-top:0;
     margin-bottom:0;
 }
 
-
-p {
-    font-family: 'Muli', sans-serif;
-    padding:0;
-    font-size: 14px;   
+p {    
+    font-family: 'Muli', sans-serif;   
+    font-size: 20px;       
 }
 
 #szoveg {
-   margin-bottom:3%;
-   margin-top: 0;
+    position: relative;
+    text-align:center;
+    top:-10%;
 }
 
-#1 { 
-    background-color:orange;
+.egy { 
+    position: relative;
+    background-color:red;
     float: left;
-    height: calc((50%-20px)/2;
-    /*display: inline-block;*/
-    padding: 20px;   
+    height: 50%;   
 }
 
-#2 {
+.ketto {
     background-color:purple;
     float: left;
-    height: 50%;
-    border: 5px;
-   
+    height: 50%;   
 }
 
-#3 {
+.harom {
     background-color:brown;
     float: left;
-    height: 50%;
+    height: 50%;  
+    border: 5px;
+    border-color: white; 
 }
 
-#4 {
+.negy {
     background-color:pink;
     float: left;
-    height: 50%;
+    height: 50%;   
+}
+
+.a,
+.b,
+.c,
+.d {
+    margin-bottom:0;   
+}
+
+#vonal {
+    border:5px;
+}
+
+.egy>.b,
+.harom>.b {
+    border-top: solid;
+    border-color: gray;
+   
 }
