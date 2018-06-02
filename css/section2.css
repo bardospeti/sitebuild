@@ -5,16 +5,17 @@
 
 #section2 h1 {
     font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 55px;
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: lighter;
+    transform: scale(1.2, 1.15)
 }
 
-#section2>p {
+#section2 p#subtext {
     font-family: 'Muli', sans-serif;
-    font-size: 20px;
+    font-size: 13px;
 }
 
 #section2 img {
