@@ -14,39 +14,6 @@
     font-weight: lighter;
 }
 
-.fa-facebook-f {
-    background-color: #3b5998;
-    color: white;
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.fa-google-plus-circle {
-    background-color: #DB4437;
-    color: white;
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.fa-twitter {
-    background-color: #1DA1F2;
-    color: white;
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
 #section4 {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/bg-cta.jpg");
     background-position: center;
@@ -86,4 +53,27 @@
     background: #fdcc52;
     border-color: #fdcc52;
     transition: 300ms
+}
+
+.fa,
+.fab {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+
+.fa-twitter {
+    background-color: #1DA1F2;
+}
+
+.fa-google-plus-g {
+    background-color: #DB4437;
 }
