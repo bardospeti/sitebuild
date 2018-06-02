@@ -19,6 +19,7 @@ section {
 }
 
 .container {
+    position: relative;
     padding: 80px 0;
     width: 1170px;
     margin-left: auto;
