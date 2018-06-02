@@ -11,6 +11,7 @@
     font-size: 50px;
     padding: 25px;
     width: 50%;
+    font-weight: lighter;
 }
 
 #section4 {
@@ -26,6 +27,7 @@
     line-height: 50px;
     text-align: center;
     font-size: 40px;
+    font-weight: lighter;
     opacity: 90%;
 }
 
