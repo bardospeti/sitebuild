@@ -25,6 +25,7 @@
 #section4 .container {
     padding-top: 120px;
     padding-bottom: 120px;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
 }
 
 #section5,
@@ -63,7 +64,7 @@
     padding: 10px 40px;
     position: absolute;
     left: 160px;
-    bottom: 80px;
+    bottom: 130px;
 }
 
 #started:hover {
