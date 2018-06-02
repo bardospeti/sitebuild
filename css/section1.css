@@ -25,13 +25,22 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
     position: relative;
 }
 
+#section1A button {
+    color: rgba(255, 255, 255, 0.80);
+    letter-spacing: 1px;
+    left: -18px;
+    position: relative;
+    border-width: 1px;
+}
+
 #col-50-1A>p {
     font-family: 'Catamaran', sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: lighter;
     color: #ffffff;
     text-align: left;
-    padding-left: 35%;
+    padding-left: 30%;
+    line-height: 60px;
 }
 
 #col-50-1B>img {

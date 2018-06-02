@@ -43,13 +43,12 @@ section {
     font-family: 'Lato', sans-serif;
     font-size: 0.5em;
     font-stretch: expanded;
-    color: #ffffff;
     text-align: center;
     background-color: transparent;
     border-radius: 25px;
     border-color: #ffffff;
     border-style: solid;
-    padding: 10px 40px;
+    padding: 15px 40px;
 }
 
 .container button:hover {

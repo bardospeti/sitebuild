@@ -7,11 +7,16 @@
 }
 
 #content {
+    display: inline-block;
+    position: relative;
+    left: -75px;
+    text-align: left;
     color: white;
-    font-size: 50px;
+    font-size: 55px;
     padding: 25px;
     width: 50%;
     font-weight: lighter;
+    line-height: 60px;
 }
 
 #section4 {
@@ -53,18 +58,19 @@
 
 #started {
     font-family: 'Lato', sans-serif;
-    font-size: 100%;
+    font-size: 45%;
     font-stretch: extra-expanded;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.80);
+    letter-spacing: 1px;
     text-align: center;
     background-color: transparent;
     border-radius: 25px;
     border-color: #ffffff;
     border-style: solid;
-    padding: 10px 40px;
+    border-width: 1px;
     position: absolute;
-    left: 180px;
-    bottom: 130px;
+    left: 220px;
+    bottom: 135px;
 }
 
 #started:hover {
