@@ -1,9 +1,10 @@
 font-family: 'Muli',
 sans-serif;
 body {
-    width: 1170px;
-    margin: 0;
     background-color: #000000;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #section4 {
@@ -11,14 +12,14 @@ body {
     background-size: 90%;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 1;
-    -webkit-filter: brightness(50%)
+    -webkit-filter: brightness(70%)
 }
 
 .container {
-    height: 500px;
-    /*ezt majd ki kell szedni, és a tartalom határozza meg, hogy milyen magas lesz*/
-    margin: auto;
+    padding: 45px 0;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Muli', 'Helvetica', 'Arial', sans-serif;
 }
 
