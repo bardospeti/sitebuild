@@ -26,6 +26,7 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
 }
 
 #col-50-1A>p {
+    font-family: 'Catamaran', sans-serif;
     font-size: 2em;
     font-weight: lighter;
     color: #ffffff;

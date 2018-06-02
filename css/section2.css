@@ -1,18 +1,25 @@
 #section2 {
     background-color: rgb(253, 202, 75);
-    line-height: 50px;
+    line-height: 35px;
 }
 
 #section2 h1 {
-    font-size: 3em;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
+    font-size: 45px;
+    line-height: 55px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-weight: lighter;
+}
+
+#section2>p {
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
 }
 
 #section2 img {
     height: auto;
-    width: 180px;
+    width: 150px;
 }
 
 #section2 a {
