@@ -2,38 +2,39 @@ font-family: 'Muli',
 sans-serif;
 body {
     background-color: #000000;
+    height: 100%;
     margin: 0;
     width: 100%;
-    height: 100%;
 }
 
 #section4 {
     background-image: url("/img/bg-cta.jpg");
-    background-size: 90%;
     background-position: center;
+    background-size: 90%;
     background-repeat: no-repeat;
     -webkit-filter: brightness(70%)
 }
 
 .container {
-    padding: 45px 0;
-    width: 1170px;
+    font-family: 'Muli', 'Helvetica', 'Arial', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Muli', 'Helvetica', 'Arial', sans-serif;
+    padding: 45px 0;
+    width: 1170px;
+    height: 500px;
 }
 
-#started: {
+#started {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 25px;
+    border-style: solid;
+    color: #FFF;
     font-family: 'Lato', sans-serif;
     font-size: 0.5em;
     font-stretch: expanded;
-    color: #ffffff;
-    text-align: center;
-    background-color: transparent;
-    border-radius: 25px;
-    border-color: #ffffff;
-    border-style: solid;
     padding: 10px 40px;
+    text-align: center;
 }
 
 #started:hover {
