@@ -15,8 +15,9 @@
 
 #section4 {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/bg-cta.jpg");
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: inline-block;
 }
 
