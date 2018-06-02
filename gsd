@@ -1,0 +1,134 @@
+[33mcommit 7bece87c568eb395062f3133bc636355e1cbe980[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m)[m
+Author: Megyesi Mónika <mm@gmail.com>
+Date:   Sat Jun 2 01:21:35 2018 +0200
+
+    masodik
+
+[33mcommit bdd78a0b4e930d26d7c73b17f8c1ecec7eef45c0[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Sat Jun 2 01:17:17 2018 +0200
+
+    section1 végleges2
+
+[33mcommit 3ae022c7f68a87ffabdafc8a3043ecf3407811be[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Sat Jun 2 00:49:07 2018 +0200
+
+    section1 végleges
+
+[33mcommit 513aad9377099eca94257dce28d87b43b725aeec[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Sat Jun 2 00:17:25 2018 +0200
+
+    section1 közel végleges, sectionX gomb végleges
+
+[33mcommit 13a7d8f1346763162265f69acec9a4a36ea166e2[m
+Merge: b8da5e2 dd916d2
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Fri Jun 1 21:44:39 2018 +0200
+
+    Merge branch 'develop' of https://github.com/bardospeti/sitebuild into develop
+
+[33mcommit b8da5e23734703b65f288a1f3786739d2fbef875[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Fri Jun 1 21:43:43 2018 +0200
+
+    section1
+
+[33mcommit dd916d20b4fa8e2fa5af36d48be9a4b96e9f2eba[m
+Author: Norbert Miko <m.norbert96@gmail.com>
+Date:   Fri Jun 1 21:11:48 2018 +0200
+
+    section 2 fix, SECTIONX a default, egyenként behúzzuk majd a sectionoket pluszba
+
+[33mcommit 022088be30fbe283b8204fb969856ef8aa0e1d01[m
+Author: Norbert Miko <m.norbert96@gmail.com>
+Date:   Fri Jun 1 21:07:41 2018 +0200
+
+    modifikált padding, section2 kész!
+
+[33mcommit 0a1c81e97a1ef7030bf80f39a35c8a7e053335ee[m
+Merge: 5b34684 1cab5a1
+Author: Norbert Miko <m.norbert96@gmail.com>
+Date:   Fri Jun 1 20:59:00 2018 +0200
+
+    Merge branch 'develop' of https://github.com/bardospeti/sitebuild into develop
+
+[33mcommit 5b3468472fbcc34fd8195842e221045aa554b738[m
+Author: Norbert Miko <m.norbert96@gmail.com>
+Date:   Fri Jun 1 20:58:20 2018 +0200
+
+    wtf
+
+[33mcommit 469f75149f822c0919ac60d3dfab085bce7d9a9a[m
+Author: Norbert Miko <m.norbert96@gmail.com>
+Date:   Fri Jun 1 20:49:51 2018 +0200
+
+    sectionX.css frissítve
+
+[33mcommit 1cab5a16d989bb6bdd56395d7b5419f0d7268164[m
+Author: Fekete Ferenc <ferenc.fekete@yahoo.com>
+Date:   Fri Jun 1 20:25:00 2018 +0200
+
+    feri saját sectionjei, plusz a css-e
+
+[33mcommit c8ee5aa5d2b9ab3e6d1cb17a4fcfa708cd09271f[m
+Author: Norbert Miko <m.norbert96@gmail.com>
+Date:   Fri Jun 1 19:15:46 2018 +0200
+
+    szar az egész
+
+[33mcommit 5deceb9d2402edf5b576715fdd81df7aaa55b8f1[m
+Merge: 00c5a28 1982b14
+Author: Norbert Miko <m.norbert96@gmail.com>
+Date:   Fri Jun 1 18:43:51 2018 +0200
+
+    Merge branch 'develop' of https://github.com/bardospeti/sitebuild into develop
+
+[33mcommit 00c5a28472f06fedff042cc5d852c5abf2d75dfb[m
+Author: Norbert Miko <m.norbert96@gmail.com>
+Date:   Fri Jun 1 18:43:45 2018 +0200
+
+    section 4 in the works
+
+[33mcommit 1982b14791b08581efdf9e6a772035ffd690cf38[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Fri Jun 1 18:37:17 2018 +0200
+
+    readme2
+
+[33mcommit d11fd520c119dc572b0d2f3f8f7961c8752e93a5[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Fri Jun 1 18:34:57 2018 +0200
+
+    readme
+
+[33mcommit e9b8b481d86510b2e43bff725473451cd678e02d[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Fri Jun 1 18:29:11 2018 +0200
+
+    assignments
+
+[33mcommit 734b381f27e37337ea54528a216ce10051668cf8[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Fri Jun 1 17:00:33 2018 +0200
+
+    readme, details
+
+[33mcommit c3e842c61f238bba8ddb6a9f7d22320b9d59c094[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Fri Jun 1 15:22:17 2018 +0200
+
+    new pics
+
+[33mcommit 3d7229e6c87d0e3db72d71be9bef663ffaba161f[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Péter Bárdos <bardospetikmet@gmail.com>
+Date:   Fri Jun 1 12:59:26 2018 +0200
+
+    alap3
+
+[33mcommit 5a96c7da16d131ec682f3fa420bf79e5d205c465[m
+Author: bardospeti <39406751+bardospeti@users.noreply.github.com>
+Date:   Fri Jun 1 12:29:57 2018 +0200
+
+    Initial commit
