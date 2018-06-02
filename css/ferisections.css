@@ -1,4 +1,4 @@
-.col-50 {
+#content {
     color: white;
     font-size: 50px;
     padding: 25px;
@@ -53,10 +53,4 @@
     background: #fdcc52;
     border-color: #fdcc52;
     transition: 300ms
-}
-
-.col-100 {
-    float: left;
-    padding: 15px;
-    width: calc(100%-30px);
 }
