@@ -1,50 +1,78 @@
-font-family: 'Muli',
-sans-serif;
-body {
-    background-color: #000000;
-    height: 100%;
-    margin: 0;
-    width: 100%;
+@font-face {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style: normal;
+    src: url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+    src: url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
 }
 
-.col-50 {
+#content {
+    display: inline-block;
+    position: relative;
+    left: -85px;
+    text-align: left;
+    top: -25px;
     color: white;
-    font-size: 50px;
+    font-size: 55px;
     padding: 25px;
     width: 50%;
-}
-
-.container {
-    font-family: 'Muli', 'Helvetica', 'Arial', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1170px;
-    overflow: auto;
-    padding: 80px 0;
+    font-weight: lighter;
+    line-height: 60px;
 }
 
 #section4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/bg-cta.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/bg-cta.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+#section4 .container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', sans-serif;
+}
+
+#section5,
+#section5 .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#section5 .container p {
+    font-size: 35px;
+    margin-top: 40px;
 }
 
 #section5 {
-    background-color: #fdcc52;
+    background-color: rgb(253, 204, 82, 0.9);
     line-height: 50px;
     text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    opacity: 90%;
+}
+
+#section5:hover {
+    background-color: rgb(253, 204, 82);
 }
 
 #started {
     font-family: 'Lato', sans-serif;
-    font-size: 100%;
+    font-size: 45%;
     font-stretch: extra-expanded;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.80);
+    letter-spacing: 1px;
     text-align: center;
     background-color: transparent;
     border-radius: 25px;
     border-color: #ffffff;
     border-style: solid;
-    padding: 10px 40px;
+    border-width: 1px;
+    position: absolute;
+    left: 210px;
+    bottom: 160px;
 }
 
 #started:hover {
@@ -53,8 +81,39 @@ body {
     transition: 300ms
 }
 
-.col-100 {
-    float: left;
+.fa-heart {
+    font-size: 40px !important;
+}
+
+.social .fa,
+.social .fab {
+    color: white;
     padding: 15px;
-    width: calc(100%-30px);
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+}
+
+.social .fa:hover {
+    opacity: 0.7;
+}
+
+.social .fab:hover {
+    opacity: 0.7;
+}
+
+.social .fa-facebook {
+    background-color: #3b5998;
+}
+
+.social .fa-twitter {
+    background-color: #1DA1F2;
+}
+
+.social .fa-google-plus-g {
+    background-color: #DB4437;
 }

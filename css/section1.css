@@ -13,27 +13,37 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
     background-image: url("/img/bg-pattern.png");
 }
 
-.container {
+#section1A .container {
     padding: 0;
     overflow: auto;
 }
 
-.col-50 {
+#section1A .col-50 {
     padding-top: 100px;
     padding-bottom: 100px;
     float: left;
     position: relative;
 }
 
+#section1A button {
+    color: rgba(255, 255, 255, 0.80);
+    letter-spacing: 1px;
+    left: -18px;
+    position: relative;
+    border-width: 1px;
+}
+
 #col-50-1A>p {
-    font-size: 2em;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2.5em;
     font-weight: lighter;
     color: #ffffff;
     text-align: left;
-    padding-left: 35%;
+    padding-left: 30%;
+    line-height: 60px;
 }
 
 #col-50-1B>img {
-    width: 200px;
+    width: 220px;
     padding-right: 20%;
 }
