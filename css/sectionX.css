@@ -98,23 +98,37 @@ header #nav1B {
     transition-duration: 300ms;
 }
 
-footer a:hover {
-    color: #fdcc52;
-    /*background-color: #222222;*/
-    transition-duration: 0ms;
-}
-
 footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
     background-color: #222222;
     color: #646464;
     text-align: center;
 }
 
 footer .container {
-    /*padding-top: 200px;*/
+    padding: 30px 0;
 }
 
 footer p {
     margin: 0;
-    padding: 0;
+    padding: 10px;
+}
+
+#privacyPolicy p {
+    text-align: justify;
+}
+
+.w3-container li {
+    text-align: left;
+}
+
+footer a {
+    padding: 10px;
+}
+
+footer a:hover {
+    color: #fdcc52;
+    cursor: pointer;
 }
