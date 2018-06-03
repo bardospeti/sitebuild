@@ -97,3 +97,24 @@ header #nav1B {
     background-color: #fdcc52;
     transition-duration: 300ms;
 }
+
+footer a:hover {
+    color: #fdcc52;
+    /*background-color: #222222;*/
+    transition-duration: 0ms;
+}
+
+footer {
+    background-color: #222222;
+    color: #646464;
+    text-align: center;
+}
+
+footer .container {
+    /*padding-top: 200px;*/
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
