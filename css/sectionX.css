@@ -97,3 +97,7 @@ header #nav1B {
     background-color: #fdcc52;
     transition-duration: 300ms;
 }
+
+.active {
+    background-color: white;
+}
