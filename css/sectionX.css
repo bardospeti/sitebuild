@@ -5,6 +5,14 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
     font-family: 'Muli', sans-serif;
 */
 
+/* w3 fix */
+
+*,
+*:before,
+*:after {
+    box-sizing: unset !important;
+}
+
 body {
     background-color: #000000;
     margin: 0;
