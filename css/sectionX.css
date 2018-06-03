@@ -124,6 +124,10 @@ header #nav1B {
     color: black;
 }
 
+.active *:hover {
+    color: #fdcc52;
+}
+
 footer a:hover {
     color: #fdcc52;
     /*background-color: #222222;*/
