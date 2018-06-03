@@ -37,6 +37,10 @@ section {
     width: 33%;
 }
 
+header nav {
+    font-family: 'Catamaran', sans-serif;
+}
+
 .container button {
     font-family: 'Lato', sans-serif;
     font-size: 0.5em;
