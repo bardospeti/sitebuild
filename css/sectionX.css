@@ -52,7 +52,7 @@ header nav {
 }
 
 header div {
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 header a {
@@ -99,7 +99,11 @@ header #nav1B {
 }
 
 .active {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.active * {
+    color: black;
 }
 
 footer a:hover {
