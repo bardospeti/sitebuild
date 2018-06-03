@@ -1,0 +1,146 @@
+body {
+    background-color: white;
+}
+
+#section3 {
+    font-weight: lighter;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#section3 .container {
+    font-family: 'Muli', 'Helvetica', 'Arial', sans-serif;
+    margin-left: auto;
+    padding: 0px;
+    widows: 900px;
+}
+
+#section3 cim {
+    margin: 0;
+}
+
+#section3 .col-100 {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    width: calc(100% - 30px);
+}
+
+#section3 .col-33 {
+    text-align: center;
+    float: left;
+    padding: 15px;
+    width: calc(33.33% - 30px);
+}
+
+#section3 img {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    float: bottom;
+}
+
+#section3 .telo {
+    float: left;
+    margin: 0 !important;
+    top: 25%;
+    height: 100%;
+}
+
+#section3 h1,
+#section3 h2 {
+    align-content: center;
+    align-items: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+
+.a {
+    margin-top: 30%;
+    margin-bottom: 0;
+    font-size: 70px;
+}
+
+.b {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#section3 .a {
+    margin-bottom: 0;
+    margin-top: 25%;
+}
+
+#section3 .b {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#section3 h3 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#section3 p {
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+#section3 #szoveg {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+#section3 .egy {
+    float: left;
+    height: 50%;
+    position: relative;
+}
+
+#section3 .ketto {
+    float: left;
+    height: 50%;
+}
+
+#section3 .harom {
+    float: left;
+    height: 50%;
+}
+
+#section3 .negy {
+    float: left;
+    height: 50%;
+}
+
+.egy>.b,
+.harom>.b {
+    border-color: gray;
+    border-top: solid;
+    border-width: thin;
+}
+
+.ketto>.a,
+.negy>.a {
+    border-color: gray;
+    border-top: solid;
+    border-width: thin;
+}
