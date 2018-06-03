@@ -76,6 +76,7 @@
 }
 
 #started:hover {
+    cursor: pointer;
     background: #fdcc52;
     border-color: #fdcc52;
     transition: 300ms
@@ -100,10 +101,12 @@
 
 .social .fa:hover {
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .social .fab:hover {
     opacity: 0.7;
+    cursor: pointer
 }
 
 .social .fa-facebook {
