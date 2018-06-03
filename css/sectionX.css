@@ -84,6 +84,8 @@ header a:hover {
 }
 
 header #nav1A {
+    position: relative;
+    bottom: 8px;
     padding-left: 150px;
     font-size: 1.25em;
 }
