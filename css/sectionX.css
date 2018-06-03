@@ -52,7 +52,7 @@ header nav {
 }
 
 header div {
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 header a {
@@ -96,6 +96,20 @@ header #nav1B {
 .container button:hover {
     background-color: #fdcc52;
     transition-duration: 300ms;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.active * {
+    color: black;
+}
+
+footer a:hover {
+    color: #fdcc52;
+    /*background-color: #222222;*/
+    transition-duration: 0ms;
 }
 
 footer {
