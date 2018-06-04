@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    
 }
 
 #section3 {
@@ -7,13 +8,14 @@ body {
     margin: 0;
     text-align: center;
     width: 100%;
+    
 }
 
 #section3 .container {
     font-family: 'Muli', 'Helvetica', 'Arial', sans-serif;
     margin-left: auto;
     padding: 0px;
-    widows: 900px;
+    width: 900px;
 }
 
 #section3 cim {
@@ -22,30 +24,34 @@ body {
 
 #section3 .col-100 {
     float: left;
-    text-align: center;
     padding: 15px;
-    width: calc(100% - 30px);
+    text-align: center;
+    width: calc(100% - 30px);    
 }
 
 #section3 .col-33 {
-    text-align: center;
     float: left;
-    padding: 15px;
-    width: calc(33.33% - 30px);
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 70px;
+    text-align: center;
+    width: calc(33.33% - 44px);
 }
 
 #section3 img {
+    float: bottom;
+    max-width: 100%;
     position: relative;
     text-align: center;
-    max-width: 100%;
-    float: bottom;
 }
 
 #section3 .telo {
     float: left;
-    margin: 0 !important;
-    top: 25%;
     height: 100%;
+    margin: 0 !important;   
+    padding-right: 0;
+    text-align: right;
+    
 }
 
 #section3 h1,
@@ -56,31 +62,14 @@ body {
     font-size: 40px;
     font-weight: lighter;
     margin-bottom: 2%;
-    margin-top: 10%;
-}
-
-.a {
-    margin-top: 30%;
-    margin-bottom: 0;
-    font-size: 70px;
-}
-
-.b {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-h3 {
-    font-size: 24px;
-    font-family: 'Catamaran', sans-serif;
-    font-weight: lighter;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 5%;
+    color: black;
 }
 
 #section3 .a {
     margin-bottom: 0;
     margin-top: 25%;
+    color:rgb(150,60,124);
 }
 
 #section3 .b {
@@ -98,13 +87,14 @@ h3 {
 
 #section3 p {
     font-family: 'Muli', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 5%;
-    margin-top: 10%;
+    margin-top: 0;
+    color: grey;
 }
 
 #section3 #szoveg {
-    font-size: 20px;
+    font-size: 14px;
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
@@ -131,16 +121,14 @@ h3 {
     height: 50%;
 }
 
-.egy>.b,
-.harom>.b {
-    border-color: gray;
-    border-top: solid;
-    border-width: thin;
+.egy>.a,
+.harom>.a {   
+    border-bottom: solid;
+    border-width: thin;  
 }
 
 .ketto>.a,
-.negy>.a {
-    border-color: gray;
+.negy>.a {   
     border-top: solid;
-    border-width: thin;
+    border-width: thin;      
 }
