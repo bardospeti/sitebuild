@@ -7,6 +7,22 @@ ezek közül válaszd ki a szükséges betűtípust, és illeszd be a megfelelő
 
 /* w3 fix */
 
+html {
+    scroll-behavior: smooth;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.active * {
+    color: black;
+}
+
+.active *:hover {
+    color: #fdcc52;
+}
+
 *,
 *:before,
 *:after {
